@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import "./UserOutput.css";
 
 class UserOutput extends Component{
 
     render() {
         return (
             <div>
-                <p>{this.props.paragraph}</p>
-                <p>{this.props.paragraph2}</p>
+                <p>{this.props.p1}</p>
+                <p>{this.props.p2}</p>
             </div>
         )
     }
